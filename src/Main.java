@@ -21,6 +21,16 @@ public class Main {
         Sherk.imprimirDatos();
 
         // Imprimir peliculas Heyer
+        colorouts.imprimirDatos();
+        Kingsman.imprimirDatos();
+        Endgame.imprimirDatos();
+        chihiro.imprimirDatos();
+
+        // Imprimir peliculas Juan Pablo
+        Toy_Story.imprimirDatos();
+        Avatar.imprimirDatos();
+        CJ7.imprimirDatos();
+        Spiderman.imprimirDatos();
 
 
     }
