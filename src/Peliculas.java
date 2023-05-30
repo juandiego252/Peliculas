@@ -43,4 +43,20 @@ public class Peliculas {
     public void setClasificacion(String clasificacion) {
         this.clasificacion = clasificacion;
     }
+
+    public void imprimirDatos(){
+        System.out.println("------------------------------------");
+        System.out.println(" ");
+        System.out.print("Nombre:");
+        System.out.println(getNombre());
+        System.out.print("Clasificacion:");
+        System.out.println(getClasificacion());
+        System.out.print("Duracion:");
+        System.out.println(getDuracion() + " " + "Horas");
+        System.out.print("Tipo:");
+        System.out.println(getTipo());
+        System.out.println(" ");
+        System.out.println("------------------------------------");
+
+    }
 }
