@@ -13,5 +13,6 @@ public class Main {
         Peliculas CJ7 = new Peliculas(1,"CJ7","Ciencia Ficcion-Comedia","Mayores de 7 años");
         Peliculas Spiderman = new Peliculas(2,"El hombre araña","Fantasia","mayores de 12 años");
 
+        System.out.println(Titanic.getClasificacion());
     }
 }
